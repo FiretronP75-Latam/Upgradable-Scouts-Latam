@@ -1,5 +1,36 @@
 [
   {
+    "name": "Mixed Militia",
+    "unitType": "Scout",
+    "replaces": "Scout",
+    "uniqueTo": "Venezuela",
+    "movement": 3, // +1 movement
+    "strength": 5,
+    "cost": 50,
+    "obsoleteTech": "Iron Working", // New
+    "upgradesTo": "Elite Scout", // New
+    "uniques": [
+      // Removed "May upgrade to [Archer] through ruins-like effects",
+      "[+20]% Strength <vs [Barbarian] units>",
+      "Can build [Land] improvements on tiles",
+      "Normal vision when embarked", // New
+      "Defense bonus when embarked", // New
+      "Double movement in [Coast]" // New
+    ],
+    "promotions": [
+      "Amphibious", // New
+      "Ignore terrain cost",
+      "March", // New
+      "Scouting I" // New
+    ],
+    "civilopediaText": [
+      {
+        "text": "Mixed groups of natives and Spaniards created to do a variety of jobs: Patrol the lands, defense against aggressive groups, exercise dominion of the territories, develop infrastructure projects, etc."
+      }
+    ],
+    "attackSound": "nonmetalhit" // New
+  },
+  {
     "name": "Scout",
     "unitType": "Scout",
     "movement": 3, // +1 movement
